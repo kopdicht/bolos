@@ -11,7 +11,7 @@ function Init(options) {
     });
 
     var audio = $("#bolos")[0];
-    $(".sound-controller").mouseenter(function() {
+    $(".sound-controller").on('mouseenter, tap', function() {
         audio.play();
     });
 
