@@ -1,0 +1,59 @@
+body {
+    background-color: #000;
+    color: #FFF;
+}
+
+.container {
+    position: absolute;
+    width: 640px;
+    height: 500px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -320px;
+}
+
+.jailed-img {
+    height: 330px;
+    display: block;
+    margin: auto;
+}
+
+.sound-controller {
+    position: absolute;
+    width: 135px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -247px 0 0 -72px;
+    /*background-color: rgba(255, 0, 0, 0.6);*/
+    border-radius: 78px;
+}
+
+
+/* CLOCK */
+
+.countdown-clock {
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.flip-clock-divider.hours .flip-clock-label {
+    right: -90px;
+}
+
+.flip-clock-divider.minutes .flip-clock-label {
+    right: -98px;
+}
+
+.flip-clock-divider.seconds .flip-clock-label {
+    right: -103px;
+}
+
+.flip-clock-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #FFF !important;
+}

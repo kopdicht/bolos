@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/flipclock.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>#MissãoEuÉMaisBolos</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/jailed.jpg" alt="Jailed" class="jailed-img">
+        <div class="sound-controller"></div>
+        <div class="countdown-clock"></div>
+    </div>
+
+    <audio preload="auto" id="bolos">
+	    <source src="sd/bolos.mp3"></source>
+	    <source src="sd/bolos.ogg"></source>
+	    Eu é mais bolos
+    </audio>
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/flipclock.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var options = {
+                clockSelector: '.countdown-clock',
+                date: 'March 31, 2017 18:00:00'
+            }
+
+            Init(options);
+        })
+    </script>
+</body>
+
+</html>

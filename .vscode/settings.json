@@ -1,0 +1,28 @@
+{
+    "deploy": {
+        "packages": [{
+            "name": "Bolos",
+            "description": "Bolos Package",
+            "files": [
+                "**/*.css",
+                "**/*.jpg",
+                "**/*.js",
+                "**/*.mp3",
+                "**/*.ogg",
+                "/*.html",
+                "/*.ico"
+            ],
+            "deployOnSave": false
+        }],
+        "targets": [{
+            "type": "ftp",
+            "name": "EUEMAISBOLOS",
+            "description": "EU E MAIS BOLOS",
+            "dir": "/",
+            "host": "184.171.246.218",
+            "port": 21,
+            "user": "bolos",
+            "password": "k3Xe8&x3"
+        }]
+    }
+}
