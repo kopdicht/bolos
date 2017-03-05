@@ -4,6 +4,10 @@ body {
     color: #FFF;
 }
 
+:focus {
+    outline: none !important;
+}
+
 .container {
     position: absolute;
     width: 640px;
@@ -28,8 +32,11 @@ body {
     top: 50%;
     left: 50%;
     margin: -247px 0 0 -72px;
-    /*background-color: rgba(255, 0, 0, 0.6);*/
     border-radius: 78px;
+}
+
+.ui-loader {
+    display: none !important;
 }
 
 
