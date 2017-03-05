@@ -1,5 +1,6 @@
 body {
-    background-color: #000;
+    background-image: url("../img/carbon.png");
+    background-repeat: repeat;
     color: #FFF;
 }
 
